@@ -233,3 +233,4 @@ useradd is used to create a new account while the passwd is used to add a passwo
 ![useradd](useradd/Code_mE2CD122AB.png)
 
 
+
