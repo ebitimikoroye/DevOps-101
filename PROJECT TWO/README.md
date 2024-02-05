@@ -29,11 +29,11 @@
  `sudo apt update`
  `sudo apt install git`
 
- ![sudo](msedge_7d9k7NNvhM.png)
+ ![sudo](Code_sEPdsoeJmq.png)
 
  ## Checking the installation
 
- ![check install](Code_wndFCeukMn.png)
+ ![check](Code_wndFCeukMn.png)
 
  ## Git commands
 
@@ -68,11 +68,11 @@
 make a new branch (git checkout -b master)
 list new branch(git branch)
 
-![branch](ShareX_4S8D0OJTYc.png)
+![-b master](ShareX_4S8D0OJTYc.png)
 
 revert back to old branch
 
-![revert](mintty_PDpi8ko8gp.png)
+![revert](mintty_pIxtIY6mmx.png)
 
 merge a branch into another branch (git merge main)
 
@@ -84,7 +84,7 @@ Deleting a git branch(git branch -d master)
 
 ## Creating a github account
 
-![create](msedge_HWpi7n5QJc.png)
+![create](msedge_HWpi7n5QJc-1.png)
 
 ### *Create a new repository*
 
@@ -93,12 +93,12 @@ at the top right click on the + icon and then go to new repositories
 fill in the required details
 click create project
 
-![log](msedge_WqjDfWefe2.png)
+![log](msedge_WqjDfWefe2-2.png)
 
 ### *Push your local git repository to your remote git repository*
 
 ![push](msedge_zqmdFaMyDq.png)
-![push](msedge_ht24R2jdDU.png)
+![push](dCjHFnW.png)
 
 ### *Push the content to the remote repository*
 
