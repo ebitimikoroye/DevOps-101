@@ -6,7 +6,7 @@ sudo command also known as (super user do) which is one of the most important co
 
 using windows to run an administrative task, a dialog box gives the option to continue, if you choose to it then performs the task.
 
- ![sudo](sudo_Zi3VT9Xw09.png)
+ ![sudo](WindowsTerminal_beQhy7ocg4.png)
 
 
 ## "pwd" command
