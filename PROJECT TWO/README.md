@@ -30,12 +30,12 @@ What is git? git is a distributed version controled system used to track changes
      (sudo apu update)
      (sudo apt install get)
 
-![sudo](ShareX_LVjKdzmcel.png)   
+![su](msedge_7d9k7NNvhM.png)
 
 ## Checking instalation
 verify that git has been installed by running the following command prompt on the terminal (git --version)
 
-![verify](Code_wndFCeukMn.png)
+![ver](Code_wndFCeukMn.png)
 
 ### *GIT COMMANDS*
   -git merge
@@ -85,17 +85,18 @@ verify that git has been installed by running the following command prompt on th
  ![ACC](msedge_HWpi7n5QJc.png)
 
  ### *creating a new repository*
- log into account
- click on + icon at top right
- select project and fill in the requirement
- then click creat project
+  - log into account
+  - click on + icon at top right
+  - select project and fill in the requirement
+  - then click creat project
 
  ![login](msedge_WqjDfWefe2.png)
 
  Push your local git repository to your remote git repository
 
  ![push](msedge_zqmdFaMyDq.png)
- ![origin](msedge_ht24R2jdDU.png)
+
+ ![add](dCjHFnW.png)
 
  pushing the content to remote repository
 
@@ -103,4 +104,4 @@ verify that git has been installed by running the following command prompt on th
 
  Cloning remote git repository can be done using this git clone command (git clone<repository_url>)
 
-![clone](Code_Dnsa8Hd4tN.png)
+![clon](Code_Dnsa8Hd4tN.png)
