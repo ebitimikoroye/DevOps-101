@@ -67,23 +67,23 @@ verify that git has been installed by running the following command prompt on th
  make a new branch (git checkout -b master)
  list new branch (git branch)
 
- ![alt text](ShareX_4S8D0OJTYc.png)
+ 
 
  revert back to old branch (git checkout main)
 
- ![alt text](mintty_pIxtIY6mmx.png)
+ ![naso](images/mintty_pIxtIY6mmx.png)
 
  Merging content of branch main into branch master
 
- ![alt text](mintty_eB5YWqZOI0.png)
+ ![status](images/mintty_eB5YWqZOI0.png)
 
  Deleting git branch (git branch -d master)
 
- ![alt text](mintty_Y3y5DmVNH1.png)
+ ![dmain](images/mintty_Y3y5DmVNH1.png)
 
  ## CREATING A GIT ACCOUNT
 
- ![alt text](msedge_HWpi7n5QJc.png)
+ ![beg](images/msedge_HWpi7n5QJc.png)
 
  ### *creating a new repository*
   - log into account
