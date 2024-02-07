@@ -37,5 +37,5 @@ The programing language provides the cliant with dynamic web application website
 
 1) Lunch an Ubuntu Instance on AWS console and SSH into from your termina
 
-![alt text](mintty_xY40ElqG4m.png)
+![g](../../../../Pictures/YVtaV3Z.png)
 
