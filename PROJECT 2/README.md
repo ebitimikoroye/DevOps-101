@@ -49,6 +49,7 @@ verify that git has been installed by running the following command prompt on th
 
 ## Git concept
 
+![alt text](<../PROJECT 1/images/chrome_4FiyBvzBNC.png>)
  ### *Repositories*
  mkdir DevOps, cd DevOps, git init
 
