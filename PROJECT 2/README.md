@@ -100,7 +100,7 @@ verify that git has been installed by running the following command prompt on th
 
  pushing the content to remote repository
  
-![alt text](mintty_P0RpopOB5p-1.png)
+![alt text](mintty_P0RpopOB5p.png)
 
  Cloning remote git repository can be done using this git clone command (git clone<repository_url>)
 
