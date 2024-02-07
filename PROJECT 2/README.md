@@ -91,18 +91,18 @@ verify that git has been installed by running the following command prompt on th
   - select project and fill in the requirement
   - then click creat project
 
- ![alt text](msedge_WqjDfWefe2.png)
+ ![impo1](images/msedge_WqjDfWefe2.png)
 
  Push your local git repository to your remote git repository
 
- ![alt text](msedge_zqmdFaMyDq.png)
+ ![ssh](images/msedge_zqmdFaMyDq.png)
 
- ![alt text](dCjHFnW.png)
+ ![remote](images/dCjHFnW.png)
 
  pushing the content to remote repository
  
-![](mintty_P0RpopOB5p.png)
+![push](images/mintty_P0RpopOB5p.png)
 
  Cloning remote git repository can be done using this git clone command (git clone<repository_url>)
 
-![alt text](Code_Dnsa8Hd4tN.png)
+![clone](images/Code_Dnsa8Hd4tN.png)
