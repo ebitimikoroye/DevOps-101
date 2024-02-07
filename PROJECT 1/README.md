@@ -13,7 +13,7 @@ using windows to run an administrative task, a dialog box gives the option to co
 
 pwd which is the short for print working directory, it writes the full path name of your current directory from the root directory.
 
-![PWD](pwd/explorer_jSqwlyj4UR.png)
+![mkdir 2](images/chrome_FTcjSP4UDM.png)
 
 ## "cd" command
 
