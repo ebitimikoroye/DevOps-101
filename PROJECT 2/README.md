@@ -30,12 +30,12 @@ What is git? git is a distributed version controled system used to track changes
      (sudo apu update)
      (sudo apt install get)
 
-![su](msedge_7d9k7NNvhM.png)
+![alt text](msedge_7d9k7NNvhM.png)
 
 ## Checking instalation
 verify that git has been installed by running the following command prompt on the terminal (git --version)
 
-![ver](Code_wndFCeukMn.png)
+![alt text](Code_wndFCeukMn.png)
 
 ### *GIT COMMANDS*
   -git merge
@@ -52,7 +52,7 @@ verify that git has been installed by running the following command prompt on th
  ### *Repositories*
  mkdir DevOps, cd DevOps, git init
 
- ![mkdir](mintty_pCFRhNy97l.png)
+ ![alt text](mintty_pCFRhNy97l.png)
 
  ### *first commit*
   touch index.txt
@@ -60,29 +60,29 @@ verify that git has been installed by running the following command prompt on th
   git add .
   git commit -m "info"
 
-  ![commit](msedge_DZhdNAq4oM.png)
+  ![alt text](msedge_DZhdNAq4oM.png)
 
  ### *Working on branch*
  make a new branch (git checkout -b master)
  list new branch (git branch)
 
- ![branch](ShareX_4S8D0OJTYc.png)
+ ![alt text](ShareX_4S8D0OJTYc.png)
 
  revert back to old branch (git checkout main)
 
- ![revert](mintty_pIxtIY6mmx.png)
+ ![alt text](mintty_pIxtIY6mmx.png)
 
  Merging content of branch main into branch master
 
- ![echo](mintty_eB5YWqZOI0.png)
+ ![alt text](mintty_eB5YWqZOI0.png)
 
  Deleting git branch (git branch -d master)
 
- ![del](mintty_Y3y5DmVNH1.png)
+ ![alt text](mintty_Y3y5DmVNH1.png)
 
  ## CREATING A GIT ACCOUNT
 
- ![ACC](msedge_HWpi7n5QJc.png)
+ ![alt text](msedge_HWpi7n5QJc.png)
 
  ### *creating a new repository*
   - log into account
@@ -90,18 +90,18 @@ verify that git has been installed by running the following command prompt on th
   - select project and fill in the requirement
   - then click creat project
 
- ![login](msedge_WqjDfWefe2.png)
+ ![alt text](msedge_WqjDfWefe2.png)
 
  Push your local git repository to your remote git repository
 
- ![push](msedge_zqmdFaMyDq.png)
+ ![alt text](msedge_zqmdFaMyDq.png)
 
- ![add](dCjHFnW.png)
+ ![alt text](dCjHFnW.png)
 
  pushing the content to remote repository
 
- ![push](mintty_P0RpopOB5p.png)
+ ![alt text](mintty_P0RpopOB5p.png)
 
  Cloning remote git repository can be done using this git clone command (git clone<repository_url>)
 
-![clon](Code_Dnsa8Hd4tN.png)
+![alt text](Code_Dnsa8Hd4tN.png)
