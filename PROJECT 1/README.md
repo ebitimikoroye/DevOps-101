@@ -103,7 +103,7 @@ df is used to display infirmstion about total space and available information.
 
 du command displayes how much space is on a file system 
 
-![du](Code_1l219DrQuy.png)
+![du](images/Code_1l219DrQuy.png)
 
 ## "head" command
 
@@ -175,7 +175,7 @@ switch user command allows you to run command as a different user, it changes th
 
 echo command is a built in command that allows users to display lines of text or stringsthat are passed as arguments.
 
-![echo](chrome_CYYX8gX1jo.png)
+![echo](images/chrome_CYYX8gX1jo.png)
 
 ## "man" command
 
@@ -194,7 +194,7 @@ wget allows you to download content directly from the terminal
 
 ping is a tool that is used to test connectivity and system availability. it involvs sending ICMP packets to a destination machine using the host name, domain or IP address.
 
-![ping](ping/chrome_Ho62f471px.png)
+![ping](images/chrome_Ho62f471px.png)
 
 ## "kill" command
 
@@ -206,13 +206,13 @@ kill command is a command used to terminate a process
 
 the jobs command reports the status of background processes that are currently running based onthe job identifier.
 
-![jobs](jobs/chrome_FTcjSP4UDM.png)
+![jobs](images/chrome_FTcjSP4UDM.png)
 
 ## "hostname" command
 
 this command displayes the name of the current host system
 
-![hostname](hostname/chrome_4FiyBvzBNC.png)
+![hostname](images/chrome_4FiyBvzBNC.png)
 
 ## "apt-get" command
 
