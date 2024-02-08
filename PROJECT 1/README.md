@@ -151,7 +151,7 @@ uname command is a built in utility used to display system information
 
 the top commnd is used to show the active linux processes, provides a real time viev of the running system. it also identifys and terminate a process that uses too much resources
 
-![top](WindowsTerminal_8iVnStxgnP.png)
+![top](images/WindowsTerminal_8iVnStxgnP.png)
 
 ## "history" command
 
@@ -163,7 +163,7 @@ history command lists up to 500 peviously used commands, it gives the privilage 
 
 the Htop command displays real time information about your computers processes. this information includes howmuch CPU and memory each process is using.
 
-![Htop](Htop/WindowsTerminal_fpQEkt6R3H.png)
+![htop](images/WindowsTerminal_fpQEkt6R3H.png)
 
 ## "su" command
 
@@ -181,7 +181,7 @@ echo command is a built in command that allows users to display lines of text or
 
 used to display the the user manual of any command that can run on the terminal. it provides Name, Synopsis, Description, Option, Exit status, Return value, Errors, files, Versions, Examples, Authors, See also.
 
-![man](man/WindowsTerminal_BfF43xwXOn.png)
+![man](images/WindowsTerminal_BfF43xwXOn.png)
 
 
 ## "wget" command
