@@ -63,7 +63,7 @@ verify that git has been installed by running the following command prompt on th
   git add .
   git commit -m "info"
 
-  
+  ![b boy](images/ShareX_4S8D0OJTYc.png)
 
  ### *Working on branch*
  make a new branch (git checkout -b master)
