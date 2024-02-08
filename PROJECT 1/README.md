@@ -30,7 +30,7 @@ the cd command stands for chang directory, it changes the current directory of t
 
  ls command is to basically list the names and features of files and directories, it can represrnt all files and folders in a selected set of directories or just a single one.
 
- 
+ ![ls](images/Code_ocKYPRQsVe.png)
 
  ## "CAT" command
 
@@ -63,7 +63,7 @@ mkdir or make directory as the name implies can be used to make directories
 
 *remove directory is a command thats used to remove empty directories
 
-![mkdir](Code_lHzaIJmZ1m.png)
+![rmdir](images/Code_lHzaIJmZ1m.png)
 
 ## "rm" command
 
@@ -81,7 +81,7 @@ touch command is a command that creates new empty files, it also can be used to 
 
 locate is a command that is used to find the location of directories and files on the system
 
-![locate](Code_sEPdsoeJmq.png)
+![locate](images/Code_sEPdsoeJmq.png)
 
 ## "find" command
 
@@ -109,7 +109,7 @@ du command displayes how much space is on a file system
 
 head command is used to show the begining of a file, it shows the first ten lines of the file.
 
-![head](Code_l3i38azK3N.png)
+![head](images/Code_l3i38azK3N.png)
 
 ## "tail" command
 
@@ -230,7 +230,7 @@ this command opens the specified file in the nano text editor, if the file does 
 
 useradd is used to create a new account while the passwd is used to add a password, only users with root privilages or sudo can run the useradd command.
 
-![useradd](useradd/Code_mE2CD122AB.png)
+![useradd](images/Code_mE2CD122AB.png)
 
 
 
