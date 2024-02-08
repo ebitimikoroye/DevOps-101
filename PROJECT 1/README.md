@@ -188,7 +188,7 @@ used to display the the user manual of any command that can run on the terminal.
 
 wget allows you to download content directly from the terminal
 
-![wget](chrome_RQdF2fqGAn.png)
+![wget](images/chrome_RQdF2fqGAn.png)
 
 ## "ping" command
 
