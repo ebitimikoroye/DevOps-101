@@ -38,7 +38,7 @@ The programing language provides the cliant with dynamic web application website
 1) Lunch an Ubuntu Instance on AWS console and SSH into from your terminal
 
 ![ols](images/mintty_xY40ElqG4m.png)
-![ng](images/msedge_fXWsgW2oqG.png)
+![yf](images/msedge_1ubHnzbpCA.png)
 
 ssh into ubuntu Ec2 instance
    - ssh -i path/to/.pem ubuntu@public_ip address
