@@ -13,7 +13,7 @@ using windows to run an administrative task, a dialog box gives the option to co
 
 pwd which is the short for print working directory, it writes the full path name of your current directory from the root directory.
 
-![mkdir 2](images/chrome_FTcjSP4UDM.png)
+![pwd](images/explorer_jSqwlyj4UR.png)
 
 ## "cd" command
 
@@ -24,7 +24,7 @@ the cd command stands for chang directory, it changes the current directory of t
  to move to home directory from anywhere type cd ~ 
  move two directories up from where you are type ../
 
-![cd](mintty_F5lPowuTO2.png)
+![cd](images/mintty_F5lPowuTO2.png)
 
  ## "ls" command
 
@@ -45,19 +45,19 @@ the cd command stands for chang directory, it changes the current directory of t
  cp or copy is used to copy files and directories from one location to another.
  -R which stands forrecursive is the command used to copy the files and subdirectories from a directory which is being copied from.
 
- ![cp](explorer_t1kXJk3wCK.png)
+ ![cp](images/explorer_t1kXJk3wCK.png)
 
  ## "mv" command
 
  mv command is used to move or rename a file directory
 
-![mv](explorer_c11T5B2I2k.png)
+![mv](images/explorer_c11T5B2I2k.png)
 
 ## "mkdir" command
 
 mkdir or make directory as the name implies can be used to make directories
 
-![mkdir](mintty_SiD1Hd2Cru.png)
+![mkdir](images/mintty_SiD1Hd2Cru.png)
 
 ## "rmdir" command
 
@@ -87,7 +87,7 @@ locate is a command that is used to find the location of directories and files o
 
 the find command searches for files and directories based on a user given expression
 
-![find](explorer_k33iJhokBN.png)
+![find](images/explorer_k33iJhokBN.png)
 
 ## "grep" command
 
@@ -97,7 +97,7 @@ global search for the regular expression is a filter thatsearches for lines matc
 
 df is used to display infirmstion about total space and available information.
 
-![df](WindowsTerminal_5Zbt4LUGb9.png)
+![df](images/WindowsTerminal_5Zbt4LUGb9.png)
 
 ## "du" command
 
@@ -133,7 +133,7 @@ tar is used for saving several files into an achive file, which can later be ext
 
 this is a command that is used to change the permissions of directories and files
 
-![chmod](WindowsTerminal_4O2TapAM6m.png)
+![chmod](images/WindowsTerminal_4O2TapAM6m.png)
 
 ## "ps" command
 
@@ -157,7 +157,7 @@ the top commnd is used to show the active linux processes, provides a real time 
 
 history command lists up to 500 peviously used commands, it gives the privilage of re using them without reentering.
 
-![history](mintty_glQZHW2773.png)
+![history](images/mintty_glQZHW2773.png)
 
 ## "htop" command
 
