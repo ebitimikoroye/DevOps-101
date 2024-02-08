@@ -6,7 +6,7 @@ sudo command also known as (super user do) which is one of the most important co
 
 using windows to run an administrative task, a dialog box gives the option to continue, if you choose to it then performs the task.
 
- ![mkdir 1](images/chrome_4FiyBvzBNC.png)
+ ![sudo](images/WindowsTerminal_Zi3VT9Xw09.png)
 
 
 ## "pwd" command
@@ -30,7 +30,7 @@ the cd command stands for chang directory, it changes the current directory of t
 
  ls command is to basically list the names and features of files and directories, it can represrnt all files and folders in a selected set of directories or just a single one.
 
- ![LS](Code_ocKYPRQsVe.png)
+ 
 
  ## "CAT" command
 
@@ -69,13 +69,13 @@ mkdir or make directory as the name implies can be used to make directories
 
 rm is a command that is used to delete files
 
-![rm](Code_gRawdMmjkI.png)
+![alt text](images/Code_gRawdMmjkI.png)
 
 ## "touch" command
 
 touch command is a command that creates new empty files, it also can be used to change timestamps and access stamps in individual files.
 
-![touch](Code_5XiJc6J7uy.png)
+![touch](images/Code_5XiJc6J7uy.png)
 
 ## "locate" command
 
@@ -115,19 +115,19 @@ head command is used to show the begining of a file, it shows the first ten line
 
 tail command is used to show the end of a file, it shows the last ten lines of a file
 
-![tail](Code_16Q3FXrM3z.png)
+![tail](images/Code_16Q3FXrM3z.png)
 
 ## "diff" command
 
 the diffrence command compares two contents of a file line by line and displayes the parts that do not match.
 
-![diff](Code_2M80ddOcS4.png)
+![diff](images/Code_2M80ddOcS4.png)
 
 ## "tar" command
 
 tar is used for saving several files into an achive file, which can later be extracted.
 
-![tar](WindowsTerminal_zK09LEGLh9.png)
+![tar](images/WindowsTerminal_zK09LEGLh9.png)
 
 ## "chmod" command
 
@@ -139,13 +139,13 @@ this is a command that is used to change the permissions of directories and file
 
 ps command displays a list of your processes thatare currently running and obtain oter information about those processes
 
-![ps](WindowsTerminal_HfAdbGdpnj.png)
+![ps  .](images/WindowsTerminal_HfAdbGdpnj.png)
 
 ## "uname" command
 
 uname command is a built in utility used to display system information
 
-![uname](WindowsTerminal_O7wJthh6SK.png)
+![uname](images/WindowsTerminal_O7wJthh6SK.png)
 
 ## "top" command
 
@@ -169,7 +169,7 @@ the Htop command displays real time information about your computers processes. 
 
 switch user command allows you to run command as a different user, it changes the administrative account in the current log-in secession
 
-![su](su/WindowsTerminal_i4q4TsDtDl.png)
+![su](images/WindowsTerminal_i4q4TsDtDl.png)
 
 ## "echo" command
 
@@ -218,13 +218,13 @@ this command displayes the name of the current host system
 
 the main task is to recieve the information and packages from the authenticated source of instalation.
 
-![apt-get](WindowsTerminal_ITWogeJdTy.png)
+![apt-get](images/WindowsTerminal_ITWogeJdTy.png)
 
 ## "nano" command
 
 this command opens the specified file in the nano text editor, if the file does not exist nano will creat it for you.
 
-![nano](WindowsTerminal_HJVYYWFzXb.png)
+![nano](images/WindowsTerminal_HJVYYWFzXb.png)
 
 ## "useradd & usredel"
 
