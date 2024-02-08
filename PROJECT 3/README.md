@@ -64,6 +64,28 @@ ssh into ubuntu Ec2 instance
 
    ![rdtf](images/msedge_fXWsgW2oqG.png) 
 
+## Installing mysql
+
+![yg](images/msedge_fIWxlfzhP7.png)
+
+ MySql is a cliant/server system that consists of a multithreaded SQL server that supports different back ends. several different cliant programs and libraries, administrative tools, and a wide rang of application-programimng interface
+
+here are the commands used to setup MySqlserver on aws ec2
+
+   - update the system
+      "sudo apt update"
+   - Install MySql
+      "sudo apt install mysql-server
+   - check status
+      "sudo systemctl status mysql
+   - login as root user
+      "sudo mysql
+   - Update password
+      "ALTER USER "root"@"localhost" IDENTIFIED WIH mysql native password BY "insert password";
+
+
+
+
 
 
 
