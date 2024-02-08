@@ -30,12 +30,12 @@ What is git? git is a distributed version controled system used to track changes
      (sudo apu update)
      (sudo apt install get)
 
-![alt text](msedge_7d9k7NNvhM.png)
+![sudo 1](images/msedge_7d9k7NNvhM.png)
 
 ## Checking instalation
 verify that git has been installed by running the following command prompt on the terminal (git --version)
 
-![alt text](Code_wndFCeukMn.png)
+![vers](images/Code_wndFCeukMn.png)
 
 ### *GIT COMMANDS*
   -git merge
@@ -49,11 +49,13 @@ verify that git has been installed by running the following command prompt on th
 
 ## Git concept
 
-![alt text](<../PROJECT 1/images/chrome_4FiyBvzBNC.png>)
+![mkdir](images/mintty_pCFRhNy97l.png)
+
  ### *Repositories*
+
  mkdir DevOps, cd DevOps, git init
 
- ![alt text](mintty_pCFRhNy97l.png)
+ ![m till](images/msedge_DZhdNAq4oM.png)
 
  ### *first commit*
   touch index.txt
@@ -61,7 +63,7 @@ verify that git has been installed by running the following command prompt on th
   git add .
   git commit -m "info"
 
-  ![alt text](msedge_DZhdNAq4oM.png)
+  
 
  ### *Working on branch*
  make a new branch (git checkout -b master)
