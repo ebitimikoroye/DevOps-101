@@ -35,7 +35,36 @@ The programing language provides the cliant with dynamic web application website
 
 ## WORKING WITH LEMP STACK
 
-1) Lunch an Ubuntu Instance on AWS console and SSH into from your termina
+1) Lunch an Ubuntu Instance on AWS console and SSH into from your terminal
 
-![alt text](mintty_xY40ElqG4m.png)
+![ols](images/mintty_xY40ElqG4m.png)
+![ng](images/msedge_fXWsgW2oqG.png)
+
+ssh into ubuntu Ec2 instance
+   - ssh -i path/to/.pem ubuntu@public_ip address
+
+2)  Install nginx
+
+### Updatu local package list
+
+   sudo apt update
+
+### Install nginx web server
+
+    sudo apt nginx install
+
+#### allow firewall for apache
+
+   sudo ufw allow "nginx HTTP"
+   sudo ufw allow 22
+
+### Confirm Nginx web server is installed
+
+   sudo systemctl status nginx
+
+   ![rdtf](images/msedge_fXWsgW2oqG.png) 
+
+
+
+
 
