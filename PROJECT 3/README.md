@@ -83,6 +83,25 @@ here are the commands used to setup MySqlserver on aws ec2
    - Update password
       "ALTER USER "root"@"localhost" IDENTIFIED WIH mysql native password BY "insert password";
 
+## Installing PHP
+
+First of what really is php? it isa general purpose scripting language geared towards web development. It was originally created in 1993 and released in 1995. it is used in various veb applications like e-commerce websites to crm systems like hubspot and salesforce
+
+install php-fpm, and tell Nginx to pass PHP requests to this software for processing. then we need php-mysql to communicate with MySQL-based databases. Core PHP packages will automatically be installed as dependencies.
+
+    sudo apt install php-fpm php-mysql -y
+   Configuring Nginx to Use PHP Processor
+
+configuring Nginx to use PHP as a processor, set up the FastCGI process manager (PHP-FPM) then configure Nginx to send PHP requests to PHP-FPM.
+create a folder called projectLEMP for our webserver. Create the root web directory for your_domain in /var/www/ folder as follows:
+
+sudo mkdir /var/www/projectLEMP
+Next, assign ownership of the directory with the $USER environment variable, which will reference your current system user:
+
+  $ sudo chown -R $USER:$USER /var/www/projectLEMP
+Open a new configuration file in Nginx’s sites-available directory
+
+  $ sudo nano /etc/nginx/sites-available/projectLEMP
 
 
 
