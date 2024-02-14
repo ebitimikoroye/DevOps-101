@@ -28,3 +28,17 @@ NGINX is an opensource high performance HTTP server and reverse proxy, installin
 to check the installation suceeded and to know the status, use this command
 - sudo systemctl status nginx
 
+OPpen a TCP port 80. to achieve this we will have to use our EC2 on our aws, by defult we have TCP port 22 running on our EC2, we will have to add a rule to the configuration to open inbound connection through port 80
+
+![yg](images/msedge_n4CaW4ZqMR.png)
+
+once this i done, we will need to test to see how it will respond to request from the internet,
+to confirm this run the following command
+
+http://<Public-IP-Address>:80
+curl -s http://169.254.169.254/latest/meta-data/public-ipv4
+ 
+both commands practically do thesame thing
+
+![ca](images/msedge_1ubHnzbpCA.png)
+
