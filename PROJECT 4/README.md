@@ -15,3 +15,16 @@ First step is to install the various tools, then open your git bash terminal,nex
 ssh -i <Your-private-key.pem> ubuntu@<EC2-Public-IP-address>
 
 ![alt text](images/mintty_qtj0k0IJBc.png)
+
+## Installing NGINX Web server
+
+NGINX is an opensource high performance HTTP server and reverse proxy, installing nginx can be done using this command
+
+- sudo apt update
+- sudo apt install nginx
+
+![uh](images/msedge_fXWsgW2oqG.png)
+
+to check the installation suceeded and to know the status, use this command
+- sudo systemctl status nginx
+
