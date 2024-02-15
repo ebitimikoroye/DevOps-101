@@ -42,3 +42,15 @@ both commands practically do thesame thing
 
 ![ca](images/msedge_1ubHnzbpCA.png)
 
+## Installing MYSQL
+
+Installing mysql which is a client/server system that consist of a multithreaded SQL server that supports different back ends, several client programs and libraries, administrative tools and a whole range of applications-programining interfaces.
+
+the command used to install mysql
+- $ sudo apt install mysql-server
+after installing the command used to log into it is
+- $ sudo mysql
+
+![rw](images/msedge_IRqIWLZQRW.png)
+
+
