@@ -48,9 +48,45 @@ Installing mysql which is a client/server system that consist of a multithreaded
 
 the command used to install mysql
 - $ sudo apt install mysql-server
+
 after installing the command used to log into it is
 - $ sudo mysql
 
 ![rw](images/msedge_IRqIWLZQRW.png)
+
+Running a security script that comes pre-installed will remove some incure defult settings.first setup a password using this command
+- ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+
+After following the process of instalation, you can test if you are able to log into mysql by running this command, password will be required.
+- $ sudo mysql -p
+
+After login is successful, its time to logout, to achieve that, run the following command 
+- mysql> exit
+
+## INSTALLING PHP
+
+PHP will be installed to process codes and generate dynamic content for the web server. two installations will come in handy 
+ - PHP-PFM
+ - PHP-MYSQL
+
+ To run both instalations at once run this command
+ $ sudo apt install php-fpm php-mysql
+
+After installing both php-pfm and php-mysql, you will then configure nginx to use php processor.
+
+## CONFIGURING NGINX TO USE PHP PROCESSOR
+
+We can use NGINX to create server blocks to encapsulate configration details and host more than one domain on a single server. By defult, nginx 20.04 has one server block /var/www/html. it is difficult using it to host multiple sites, lets create a drictory structure within www/html.
+
+To achieve that we will use this command
+ - $ sudo mkdir /var/www/projectLEMP
+
+next is to assigne ownership of the directory using this command
+ - $ sudo chown -R $USER:$USER /var/www/projectLEMP
+
+use this command to open a new configration file in NGINX
+ - $ sudo nano /etc/nginx/sites-available/projectLEMP
+
+
 
 
