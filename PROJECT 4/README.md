@@ -87,6 +87,27 @@ next is to assigne ownership of the directory using this command
 use this command to open a new configration file in NGINX
  - $ sudo nano /etc/nginx/sites-available/projectLEMP
 
+after the blank file has been created, impute the following into the file.
+
+![iy](images/msedge_1osuMKVSjH.png)
+
+Once that is concluded, save and close the file, if you are using nano " ctrl + X and then use Y and then enter.
+
+Activate your configuration by linking your config to nginx sites enabled directory using this command
+- $ sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/
+
+test your configuration for syntex error using this command
+ - $ sudo nginx -t
+
+![oih](images/mintty_1rZtvzh5EZ.png)
+
+Next is to disable and then reload to apply changes to NGINX Uusing these commands
+ - sudo unlink /etc/nginx/sites-enabled/default
+
+ - $ sudo systemctl reload nginx
+
+
+
 
 
 
