@@ -90,6 +90,12 @@ First of what really is php? it isa general purpose scripting language geared to
 install php-fpm, and tell Nginx to pass PHP requests to this software for processing. then we need php-mysql to communicate with MySQL-based databases. Core PHP packages will automatically be installed as dependencies.
 
     sudo apt install php-fpm php-mysql -y
+
+To confirm the version of php, run this command
+ - php -v
+
+ ![ij](images/mintty_gHupyyzcNi.png)
+
    Configuring Nginx to Use PHP Processor
 
 configuring Nginx to use PHP as a processor, set up the FastCGI process manager (PHP-FPM) then configure Nginx to send PHP requests to PHP-FPM.
