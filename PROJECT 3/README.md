@@ -44,7 +44,7 @@ ssh into ubuntu Ec2 instance
 
 2)  Install Apache2
 
-### Updatu local package list
+### Update local package list
 
 it is important to first update the server, and if there are any upgrades required, they also should be attended to. the commands needed are
   - sudo apt update
@@ -158,13 +158,18 @@ after editing, save and reload
  create a new file named index.php inside your custome web root folder
   -  $ vim /var/www/projectlamp/index.php
 
-The LEMP stack is now fully configured. In the next step, we’ll create a PHP script to test that Nginx is in fact able to handle .php files within our newly configured website.
-
    Testing apache2 With PHP
 
 we can do this by creating a test PHP file in our document root. let's open a new file called info.php:
 
 ![ouh](images/msedge_AJWgLaI2fO.png)
+
+save and exit. you will have this if you refresh your page.
+
+![nss](images/msedge_j5FEfFAlkU.png)
+
+after confirming that the process is sucessful, its best to remove the file as it containes sensitive details about your php
+ - $ sudo rm /var/www/projectlamp/index.php
 
 
 
