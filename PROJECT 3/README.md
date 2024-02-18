@@ -43,26 +43,28 @@ The programing language provides the cliant with dynamic web application website
 ssh into ubuntu Ec2 instance
    - ssh -i path/to/.pem ubuntu@public_ip address
 
-2)  Install nginx
+2)  Install Apache2
 
 ### Updatu local package list
 
-   sudo apt update
+it is important to first update the server, and if there are any upgrades required, they also should be attended to. the commands needed are
+  - sudo apt update
+  - sudo apt upgrade
 
-### Install nginx web server
+### Install Apache2 web server
 
-    sudo apt nginx install
+What is apache2 ? it is a free and open-source cross-platform web server software, it is responsible for accepting HTTP requests from visitors and sending them back the requested information in the form of web pages or in simpiler terms. it allows visitors to view content on your website. the command used to install apache2 is,
+  - sudo apt install apache2
 
-#### allow firewall for apache
+once the installation is done, you can confirm if it is up and running by running this command,
+  - sudo systemctl status apache2
 
-   sudo ufw allow "nginx HTTP"
-   sudo ufw allow 22
+At this point you can test to see if your ip adderess is functional by opening a web page of choice and type in the ip adderess
+- http://<Public-IP-Address>:80
 
-### Confirm Nginx web server is installed
+![y](images/msedge_bxfQIrEhrg.png)
 
-   sudo systemctl status nginx
-
-   ![rdtf](images/msedge_fXWsgW2oqG.png) 
+this should be the result you get after searching the web using your IP adderess
 
 ## Installing mysql
 
@@ -82,6 +84,8 @@ here are the commands used to setup MySqlserver on aws ec2
       "sudo mysql
    - Update password
       "ALTER USER "root"@"localhost" IDENTIFIED WIH mysql native password BY "insert password";
+
+   ![oafj](images/mintty_Kn69NIZl9O.png)
 
 ## Installing PHP
 
