@@ -38,7 +38,6 @@ The programing language provides the cliant with dynamic web application website
 1) Lunch an Ubuntu Instance on AWS console and SSH into from your terminal
 
 ![ols](images/mintty_xY40ElqG4m.png)
-![yf](images/msedge_1ubHnzbpCA.png)
 
 ssh into ubuntu Ec2 instance
    - ssh -i path/to/.pem ubuntu@public_ip address
@@ -60,15 +59,13 @@ once the installation is done, you can confirm if it is up and running by runnin
   - sudo systemctl status apache2
 
 At this point you can test to see if your ip adderess is functional by opening a web page of choice and type in the ip adderess
-- http://<Public-IP-Address>:80
+- http://public ip address:80
 
 ![y](images/msedge_bxfQIrEhrg.png)
 
 this should be the result you get after searching the web using your IP adderess
 
 ## Installing mysql
-
-![yg](images/msedge_fIWxlfzhP7.png)
 
  MySql is a cliant/server system that consists of a multithreaded SQL server that supports different back ends. several different cliant programs and libraries, administrative tools, and a wide rang of application-programimng interface
 
