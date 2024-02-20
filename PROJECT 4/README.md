@@ -2,6 +2,9 @@
 
 First of, what is web stack? it is the collection of software used for web development that incoperates, at a minimum, an operating system (OS), a programming language, database software and aweb server. it is also a type of solution stack.
 There are different web servers that can be used to implement a web stack
+
+## Types of Web Stack
+
   - Nginx
   - Apache tomcat
   - Lighttpd
@@ -18,7 +21,9 @@ ssh -i <Your-private-key.pem> ubuntu@<EC2-Public-IP-address>
 
 ## Installing NGINX Web server
 
-NGINX is an opensource high performance HTTP server and reverse proxy, installing nginx can be done using this command
+NGINX is an opensource high performance HTTP server and reverse proxy, loadbalancing and caching. It provides HTTPS server capabilities and is mainly designed for maximum performance and stability, it also functions as a proxy server for email communicationsproctocols such as, IMAP, POP3 and SMTP.
+
+Installing nginx can be done using this command
 
 - sudo apt update
 - sudo apt install nginx
@@ -32,7 +37,7 @@ OPpen a TCP port 80. to achieve this we will have to use our EC2 on our aws, by 
 
 ![yg](images/msedge_n4CaW4ZqMR.png)
 
-once this i done, we will need to test to see how it will respond to request from the internet,
+once this is done, we will need to test to see how it will respond to request from the internet,
 to confirm this run the following command
 
 http://<Public-IP-Address>:80
@@ -49,12 +54,12 @@ Installing mysql which is a client/server system that consist of a multithreaded
 the command used to install mysql
 - $ sudo apt install mysql-server
 
-after installing the command used to log into it is
+after instalation, the command used to log into it is
 - $ sudo mysql
 
 ![rw](images/msedge_IRqIWLZQRW.png)
 
-Running a security script that comes pre-installed will remove some incure defult settings.first setup a password using this command
+Running a security script that comes pre-installed will remove some insecure defult settings.first setup a password using this command
 - ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
 
 After following the process of instalation, you can test if you are able to log into mysql by running this command, password will be required.
@@ -70,7 +75,7 @@ PHP will be installed to process codes and generate dynamic content for the web 
  - PHP-MYSQL
 
  To run both instalations at once run this command
- $ sudo apt install php-fpm php-mysql
+ -  $ sudo apt install php-fpm php-mysql
 
 After installing both php-pfm and php-mysql, you will then configure nginx to use php processor.
 
@@ -103,8 +108,40 @@ test your configuration for syntex error using this command
 
 Next is to disable and then reload to apply changes to NGINX Uusing these commands
  - sudo unlink /etc/nginx/sites-enabled/default
-
  - $ sudo systemctl reload nginx
+
+Once reload is done, your new website has been activated but the web root is empty. we eill create a HTML file to test if the server block is operational.
+
+ - sudo echo 'Hello LEMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectLEMP/index.html
+
+after editing our file, lets go to a web browser of our choice and search our public IP. 
+ - http://<Public-IP-Address>:80
+ 
+You can tell Nginx is fully functional if you see the text from "echo" command, leave the file as a temporary loading page  for your application untill you replace it with an index.php. dont forget to remove or rename the index.html from your document root or it will take precedence over an index.php.
+
+## Testing PHP with NGINX
+
+Your LEMP stack setup should now be completed. to know if NGINX can correctly hand PHP files off to your PHP processor.
+
+First create a test PHP file in your root document, open a new file called "info.php" in your text editor. 
+ 
+ use this command 
+  - $ nano /var/www/projectLEMP/info.php
+
+  type this line in the new file, its a valid PHP code that will return information about your server.
+  - <?php
+    phpinfo();
+
+save and exit it, you wll be able to access this page through your browser.
+ http://`server_domain_or_IP`/info.php
+ 
+it will be a web page containing your server details, make sure you remove it as it contains sensitive information
+
+ - $ sudo rm /var/www/your_domain/info.php
+you can use this command to regenerate this file anytime.
+
+
+
 
 
 
