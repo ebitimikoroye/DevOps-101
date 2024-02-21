@@ -140,6 +140,77 @@ it will be a web page containing your server details, make sure you remove it as
  - $ sudo rm /var/www/your_domain/info.php
 you can use this command to regenerate this file anytime.
 
+## Using PHP To Retrive Data From MySQL
+
+Create a test data base with a simple "to do list" then configure access to it. so the Nginx website would be able to query data from the database and display it.
+
+Create a database and give it a name, also create a user and give a name,
+ 
+First connect to MySQL console using the root account
+ - $ sudo mysql
+
+next create a database from MySQL console
+ - mysql> CREATE DATABASE `example_database`;
+
+cret a new user and grant full privilages on the data base
+ - mysql>  CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+
+ensure to replace the password with a mor secured one.
+
+the next is to give the new user permission over the database, using this command will give the user full access to database without being able to create or modify other database on the server.
+ - mysql> GRANT ALL ON example_database.* TO 'example_user'@'%';
+
+exit the MySQL shell
+ - mysql> exit
+
+test the new user has access to the database by logging in with the password created. to achieve that use this command.
+ - $ mysql -u example_user -p
+
+the -p flag will prompt you for the new user password, confirm you have access to the database using this command.
+ - mysql> SHOW DATABASE
+
+
+
+Create a test table named TODO_LIST using the MySQL console, insert a few rows of content, impute the following statement.
+ - CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content VARCHAR(255),PRIMARY KEY(item_id));
+
+ - mysql> INSERT INTO example_database.todo_list (content) VALUES ("My first important item");
+
+confirm the data issaved to your table, use the following command
+ - mysql>  SELECT * FROM example_database.todo_list;
+
+
+
+
+once you get the confirmation of the data on the test table you can exit.
+ - mysql> exit
+
+Create a PHP script that will connect to MySQL and query for your content. Create a new PHP file in your custom web root directory using your preferred editor.
+ - $ nano /var/www/projectLEMP/todo_list.php
+
+next copy this content into your todo_list script, after that save and close the file.
+
+- <?php
+$user = "example_user";
+$password = "PassWord.1";
+$database = "example_database";
+$table = "todo_list";
+
+try {
+  $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
+  echo "<h2>TODO</h2><ol>";
+  foreach($db->query("SELECT content FROM $table") as $row) {
+    echo "<li>" . $row['content'] . "</li>";
+  }
+  echo "</ol>";
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}
+
+Once that is done, you can access the page on your web browser.
+
+- http://<Public_domain_or_IP>/todo_list.php
 
 
 
