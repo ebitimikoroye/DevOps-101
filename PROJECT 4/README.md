@@ -94,7 +94,7 @@ use this command to open a new configration file in NGINX
 
 after the blank file has been created, impute the following into the file.
 
-![iy](images/msedge_1osuMKVSjH.png)
+![ic](images/mintty_YCh3VhloBz.png)
 
 Once that is concluded, save and close the file, if you are using nano " ctrl + X and then use Y and then enter.
 
@@ -132,8 +132,12 @@ First create a test PHP file in your root document, open a new file called "info
   - <?php
     phpinfo();
 
+   ![oihx](images/mintty_Cjvgm56Aff.png) 
+
 save and exit it, you wll be able to access this page through your browser.
  http://`server_domain_or_IP`/info.php
+
+ ![ihc](images/chrome_3rDSujfFPC.png)
  
 it will be a web page containing your server details, make sure you remove it as it contains sensitive information
 
