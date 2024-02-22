@@ -129,8 +129,6 @@ First create a test PHP file in your root document, open a new file called "info
   - $ nano /var/www/projectLEMP/info.php
 
   type this line in the new file, its a valid PHP code that will return information about your server.
-  - <?php
-    phpinfo();
 
    ![oihx](images/mintty_Cjvgm56Aff.png) 
 
@@ -173,6 +171,7 @@ test the new user has access to the database by logging in with the password cre
 the -p flag will prompt you for the new user password, confirm you have access to the database using this command.
  - mysql> SHOW DATABASE
 
+![sdvhj](images/mintty_5vec3K4XkS.png)
 
 
 Create a test table named TODO_LIST using the MySQL console, insert a few rows of content, impute the following statement.
@@ -183,8 +182,7 @@ Create a test table named TODO_LIST using the MySQL console, insert a few rows o
 confirm the data issaved to your table, use the following command
  - mysql>  SELECT * FROM example_database.todo_list;
 
-
-
+![uitf](images/mintty_rXCnLkLRGb.png)
 
 once you get the confirmation of the data on the test table you can exit.
  - mysql> exit
@@ -192,25 +190,9 @@ once you get the confirmation of the data on the test table you can exit.
 Create a PHP script that will connect to MySQL and query for your content. Create a new PHP file in your custom web root directory using your preferred editor.
  - $ nano /var/www/projectLEMP/todo_list.php
 
-next copy this content into your todo_list script, after that save and close the file.
+next copy this content into your todo_list script, after that save and close the file
 
-- <?php
-$user = "example_user";
-$password = "PassWord.1";
-$database = "example_database";
-$table = "todo_list";
-
-try {
-  $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
-  echo "<h2>TODO</h2><ol>";
-  foreach($db->query("SELECT content FROM $table") as $row) {
-    echo "<li>" . $row['content'] . "</li>";
-  }
-  echo "</ol>";
-} catch (PDOException $e) {
-    print "Error!: " . $e->getMessage() . "<br/>";
-    die();
-}
+![poikj](images/mintty_dVeHD8zmwh.png)
 
 Once that is done, you can access the page on your web browser.
 
