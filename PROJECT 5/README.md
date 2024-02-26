@@ -20,7 +20,17 @@ Shell scripts contain ASCII text and are written using
  
  The content of the script is a series of commands in a language that can be interpreted by the shell. Functions that shell scripts support include loops, variables, if/then/else statements, arrays and shortcuts. Once complete, the file is saved typically with a .txt or .sh extension and in a location that the shell can access.
 
+ ## Shell scripting syntax elements
+  
+  1) Variables- it is a fundamental concept in shell scripting that allow's you to store and config data. In a shell script, a variable is a container that holds a value, such as,
+   - string.
+   - number.
+   - file path.
+
 lets assign a value to a variable using this command
- - name="john"
+ - $ name="john"
+
+lets retrive the value from yhe variable using this command
+ - $ echo $name
 
 ![sfvd](images/WindowsTerminal_36CZC5AyvT.png)
