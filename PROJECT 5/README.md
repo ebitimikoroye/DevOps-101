@@ -92,6 +92,10 @@ Example pass the result of a command as input to another command
 
 ![hdydg](images/WindowsTerminal_dPRYE2fE2s.png)
 
+  5) functions are blocks of code that can be used multiple times within or across different scripts. A function in shell scripting is similar to a subroutine or function in other programming languages.
+
+![alt text](images/WindowsTerminal_I9QVYy2pRB.png)
+![xd](images/WindowsTerminal_I9QVYy2pRB.png)
 
 
 
