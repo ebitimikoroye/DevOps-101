@@ -105,7 +105,8 @@ Example pass the result of a command as input to another command
  
  2) - touch user-input.sh
  
- 3) -![alt text](images/chrome_F671rbw2Ig.png)
+ 3) - 
+      ![alt text](images/chrome_F671rbw2Ig.png)
 
  4) - ctrl + X then Y and ENTER
 
@@ -119,8 +120,11 @@ Example pass the result of a command as input to another command
 
 ## Directory manipulation and navigation
 
+in this script we will create a file, paste the following in the file, set execute permission on the file finally run the script.
+
 1) - touch navigating-linux-filesystem.sh
-2) - ![f](images/msedge_p8urT6Nm67.png)
+2) - 
+    ![lkjhnbh](images/msedge_p8urT6Nm67-1.png)
 3) - chmod +x navigating-linux-filesystem.sh
 4) - ./navigating-linux-filesystem.sh
 
