@@ -146,7 +146,7 @@ in this script we will create a file, paste the following in the file, set execu
 
 ![alt text](images/WindowsTerminal_UEmu6x4yOD.png)
 
-# Working with N umbers ND cALCULATIONS
+## Working with Numbers and Calculations
 
  1) - touch calculations.sh
 
@@ -159,5 +159,16 @@ in this script we will create a file, paste the following in the file, set execu
 
  ![jykty](images/WindowsTerminal_wThJPIeEuc.png)
 
+## File Backup and Time Stamping
 
+1) - touch backup.sh
+
+2) -
+    ![uohd](images/chrome_2xIo4VglrZ.png)
+
+3) - chmod +x backup.sh
+
+4) - ./backup.sh
+
+![cvj](images/WindowsTerminal_YIrhpCDxWy.png)
 
