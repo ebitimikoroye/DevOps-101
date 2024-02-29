@@ -105,25 +105,24 @@ Example pass the result of a command as input to another command
  
  2) - touch user-input.sh
  
- 3) - #!/bin/bash
+ 3) -![alt text](images/chrome_F671rbw2Ig.png)
 
-# Prompt the user for their name
-echo "Enter your name:"
-read name
+ 4) - ctrl + X then Y and ENTER
 
-# Display a greeting with the entered name
-echo "Hello, $name! Nice to meet you."
+ 5) - chmod +x user-input.sh
 
-  4) - ctrl + X then Y and ENTER
-
-  5) - chmod +x user-input.sh
-
-  6) - ./user-input.sh
+ 6) - ./user-input.sh
 
 ![taaext](images/WindowsTerminal_VmNSiOqvtX.png)
 ![tyguh](images/WindowsTerminal_tykH40GSF5.png)
 ![uhef](images/WindowsTerminal_Tbfdny0Brm.png)
 
+## Directory manipulation and navigation
+
+1) - touch navigating-linux-filesystem.sh
+2) - ![f](images/msedge_p8urT6Nm67.png)
+3) - chmod +x navigating-linux-filesystem.sh
+4) - ./navigating-linux-filesystem.sh
 
 
 
