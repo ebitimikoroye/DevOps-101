@@ -97,6 +97,33 @@ Example pass the result of a command as input to another command
 ![alt text](images/WindowsTerminal_I9QVYy2pRB.png)
 ![xd](images/WindowsTerminal_I9QVYy2pRB.png)
 
+## Lets write our first script
+
+ First make a directory, then open a file inside the directory, then paste the following in the file, next save the file, after that make the file executable and finally run he script.
+
+ 1) - mkdir shell-scripting
+ 
+ 2) - touch user-input.sh
+ 
+ 3) - #!/bin/bash
+
+# Prompt the user for their name
+echo "Enter your name:"
+read name
+
+# Display a greeting with the entered name
+echo "Hello, $name! Nice to meet you."
+
+  4) - ctrl + X then Y and ENTER
+
+  5) - chmod +x user-input.sh
+
+  6) - ./user-input.sh
+
+![taaext](images/WindowsTerminal_VmNSiOqvtX.png)
+![tyguh](images/WindowsTerminal_tykH40GSF5.png)
+![uhef](images/WindowsTerminal_Tbfdny0Brm.png)
+
 
 
 
