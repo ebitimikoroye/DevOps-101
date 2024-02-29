@@ -34,3 +34,19 @@ lets retrive the value from yhe variable using this command
  - $ echo $name
 
 ![sfvd](images/WindowsTerminal_36CZC5AyvT.png)
+
+  2) controle flow- shell scrit provides various commands that can be used to control the flow of execution in a program. eg
+
+  - if
+  - test
+  - exit
+the various commands in the capture bellow shows us how using if-else can execute a script.
+
+![jdihd](images/WindowsTerminal_Vx12kbw1jG.png)
+
+Now let's try to run some numbere to see how it works.
+
+![iufdi](images/explorer_7wdmgokRgO.png)
+
+this will be the result
+![gohh](images/chrome_16uzWkuH6C.png)
