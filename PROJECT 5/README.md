@@ -59,13 +59,40 @@ this will be the result
 
 use backtick for command substitution
 
-current_date=`date +%Y-%m-%d`
+ - current_date=`date +%Y-%m-%d`
 
 use $() syntax for command substution
 
-current_date=$(date +%Y-%m-%d)
+ - current_date=$(date +%Y-%m-%d)
 
 ![udfh](images/WindowsTerminal_rfyVxeJfD1.png)
+
+  4) In an interactive shell, or a script running on a terminal, the Standard Input is how bash sees the characters you type on your keyboard. The Standard Output is where the program sends most of its normal information so that the user can see it, and the Standard Error is where the program sends its error messages.
+
+Example of user inpute
+
+ - echo "Enter your name:"
+read name
+
+![fsgsu](images/WindowsTerminal_9Q06rkpQhM.png)
+
+Example of output text to the terminal
+
+ - echo "Hello World"
+
+Example the result of a command into a file
+
+ - echo "hello world" > index.txt
+
+![ioutrji](images/explorer_8FxHWXSY1H.png)
+
+Example pass the result of a command as input to another command
+
+ - echo "hello world" | grep "pattern"
+
+![hdydg](images/WindowsTerminal_dPRYE2fE2s.png)
+
+
 
 
 
