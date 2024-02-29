@@ -123,10 +123,41 @@ Example pass the result of a command as input to another command
 in this script we will create a file, paste the following in the file, set execute permission on the file finally run the script.
 
 1) - touch navigating-linux-filesystem.sh
+
 2) - 
     ![lkjhnbh](images/msedge_p8urT6Nm67-1.png)
+
 3) - chmod +x navigating-linux-filesystem.sh
+
 4) - ./navigating-linux-filesystem.sh
+
+![alt text](images/WindowsTerminal_bkS7Y04Hba.png)
+
+## File Operations and Sorting
+
+1) - touch sorting.sh
+
+2) - 
+   ![fj](images/chrome_VVhWotjsob.png)
+
+3) - chmod +x sorting.sh
+
+4) - ./sorting.sh
+
+![alt text](images/WindowsTerminal_UEmu6x4yOD.png)
+
+# Working with N umbers ND cALCULATIONS
+
+ 1) - touch calculations.sh
+
+ 2) - 
+    ![byht](images/msedge_p8urT6Nm67.png)
+
+ 3) - chmod +x calculations.sh
+
+ 4) - ./calculations.sh
+
+ ![jykty](images/WindowsTerminal_wThJPIeEuc.png)
 
 
 
