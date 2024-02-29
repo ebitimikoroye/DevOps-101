@@ -40,6 +40,7 @@ lets retrive the value from yhe variable using this command
   - if
   - test
   - exit
+
 the various commands in the capture bellow shows us how using if-else can execute a script.
 
 ![jdihd](images/WindowsTerminal_Vx12kbw1jG.png)
@@ -49,4 +50,22 @@ Now let's try to run some numbere to see how it works.
 ![iufdi](images/explorer_7wdmgokRgO.png)
 
 this will be the result
+
 ![gohh](images/chrome_16uzWkuH6C.png)
+
+![kj](images/WindowsTerminal_DLPPAAB2C5.png)
+
+  3) Command substitution- it allows you capture the output of a command as an argument to another command. When you place a command line within backquotes ( `` ), the shell runs the command then replaces the entire expression, including the backquotes, with the output.
+
+use backtick for command substitution
+
+current_date=`date +%Y-%m-%d`
+
+use $() syntax for command substution
+
+current_date=$(date +%Y-%m-%d)
+
+![udfh](images/WindowsTerminal_rfyVxeJfD1.png)
+
+
+
