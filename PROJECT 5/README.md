@@ -164,11 +164,11 @@ in this script we will create a file, paste the following in the file, set execu
 1) - touch backup.sh
 
 2) -
-    ![uohd](images/chrome_2xIo4VglrZ.png)
+![bjgnghdx](images/WindowsTerminal_xL8f8HYJzY.png)
 
 3) - chmod +x backup.sh
 
 4) - ./backup.sh
 
-![cvj](images/WindowsTerminal_YIrhpCDxWy.png)
-
+![dcv](images/WindowsTerminal_cMBVSGIWtC.png)
+![cybtnym](images/WindowsTerminal_bvyGr16KsN.png)
