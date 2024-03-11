@@ -74,30 +74,56 @@ Step 5: Create A New User and Database On MySQL Server In order for mysql client
 i. Login to mysql server
 
 sudo mysql
+
 ii. Create a new user
 
 mysql>  CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+
 Note: The password field should be replaced wih your password
 
 iii. Create a database
 
 CREATE DATABASE example_database;
+
 Step 6: Grant MySQL Client Administrative Prilvledges
 
 i. Grant privileges
 
   mysql> GRANT ALL ON example_database.* TO 'example_user'@'%';
+
 Exit MySQL and restart the mySQL service using
 
 sudo systemctl restart mysql
 
 ![lpkoui](images/mintty_t9XXi7ilid.png)
 
-Step 7: Configure MySQL server to Allow Connections From Remote Hosts. i. Edit mysql server configuration file
+Step 7: Configure MySQL server to Allow Connections From Remote Hosts. 
+
+i. Edit mysql server configuration file
 
 sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 
 ![tdyfug](images/mintty_DKqJ9NCaaI.png)
+
+In the mysqlserver configuration file, replace 127.0.0.1’ to ‘0.0.0.0, then save and close the file
+
+Step 8: Connecting To Mysql Server From Mysql Client 
+
+i. Connect to mysql server from mysql client
+
+mysql -u example_user -h <mysql_server_ privateipaddress> -p password
+
+ii. Check that you have successfully connected to a remote MySQL server and can perform SQL queries
+
+Client connection to mysql
+
+show databases;
+
+![alt text](images/mintty_iThfrahXtZ.png)
+
+
+
+
 
 
 
