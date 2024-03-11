@@ -13,9 +13,13 @@ Client-server architecture typically features multiple users’ workstations, PC
 ## Prerequisites
 
 1 - Basic knowledge of at least one programming language.
+
 2 - A server infrastructure to host the MySQL server and the client application.
+
 3 - Familiarity with SQL.
+
 4 - Know t basic Linux commands and knowledge of Linux server management
+
 5 - Install and set up MySQL on your Linux server.
 
 a quick example of client server
@@ -55,5 +59,46 @@ On mysql server instance install MySQL Server software.
 sudo apt install mysql-server -y
 
 ![yffgh](images/mintty_X9RBfbiw17.png)
+
+![tdfyghn](images/mintty_iKav2oO4ho.png)
+
+Step 4: Allowing Access To MySQL Server for MySQl Client
+
+By default, both of your EC2 virtual servers are located in the same local virtual network, so they can communicate to each other using local IP addresses. Or, you can add them to the same subnets.
+Use mysql server's local IP address to connect from mysql client. MySQL server uses TCP port 3306 by default, so you will have to open it by creating a new entry in ‘Inbound rules’ in ‘mysql server’ Security Groups. For extra security, do not allow all IP addresses to reach your ‘mysql server’ – allow access only to the specific local IP address of your ‘mysql client’.
+
+![ygsdh](images/msedge_ccpsa4BGZQ.png)
+
+Step 5: Create A New User and Database On MySQL Server In order for mysql client to be able to send request to mysql server, we need to create a new user for mysql client and a database.
+
+i. Login to mysql server
+
+sudo mysql
+ii. Create a new user
+
+mysql>  CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+Note: The password field should be replaced wih your password
+
+iii. Create a database
+
+CREATE DATABASE example_database;
+Step 6: Grant MySQL Client Administrative Prilvledges
+
+i. Grant privileges
+
+  mysql> GRANT ALL ON example_database.* TO 'example_user'@'%';
+Exit MySQL and restart the mySQL service using
+
+sudo systemctl restart mysql
+
+![lpkoui](images/mintty_t9XXi7ilid.png)
+
+Step 7: Configure MySQL server to Allow Connections From Remote Hosts. i. Edit mysql server configuration file
+
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+![tdyfug](images/mintty_DKqJ9NCaaI.png)
+
+
 
 
