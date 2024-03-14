@@ -23,7 +23,6 @@ Client-server architecture typically features multiple users’ workstations, PC
 5 - Install and set up MySQL on your Linux server.
 
 a quick example of client server
-
 ![gfhgfh](images/WindowsTerminal_lpFxJqUBF8.png)
 
 ## Deploying a Client-Server using MySQL
