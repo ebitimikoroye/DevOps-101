@@ -74,13 +74,13 @@ sudo nano /etc/apache2/ports.conf
 
   iii. Add a new listen directive
 
-![fgfchgvjh](inages/msedge_XPSgF1IAtP.png)
+![df](inages/msedge_IwVuraBznX.png)
 
   iv. Add a new virtualhost statement since a new listen directive has been added
 
 sudo nano /etc/apache2/sites-available/000-default.conf
 
-![fyguhgij](inages/msedge_AOKE4ceHyd.png)
+![fd](inages/msedge_rdA1ognsY1.png)
 
   v. Reload Apache
 
@@ -102,8 +102,9 @@ sudo cp -f ./index.html /var/www/html/index.html
 
 sudo systemctl restart apache2
 
-![;lknojbihug](inages/msedge_sg7Yp20J6h.png)
-![lpkjoihuglk](inages/msedge_UAm3eQZkCS.png)
+![ftrdg](inages/msedge_BMG21xrnme.png)
+
+![ytcyt](inages/msedge_v5B8S4oRTP.png)
 
 ### Step 5:
 
