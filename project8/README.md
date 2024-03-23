@@ -28,6 +28,10 @@ change permission to make it executable -{ sudo chmod +x install.sh }-
 
 run the shell script using this command -{ ./install.sh Public_IP }-
 
+![hh](images/msedge_5dEhlsFxoe.png)
+
+![jh](images/msedge_BYF93XToyG.png)
+
 ## Deployment of Nginx as a load Balancer using Shell script
 
 ### step 1 
