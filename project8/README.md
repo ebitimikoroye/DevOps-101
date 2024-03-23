@@ -54,4 +54,8 @@ run the script ./nginx.sh Public_IP webserver 1 webserver 2
 
 After following the process, we should have a setup in any brouser of our choice 
 
+![jgh](images/chrome_TsgJV68tgX.png)
 
+![jnh](images/chrome_14hfAEQr0w.png)
+
+![jhg](images/chrome_AkEVkrbTSV.png)
