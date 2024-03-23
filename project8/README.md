@@ -30,7 +30,7 @@ run the shell script using this command -{ ./install.sh Public_IP }-
 
 ![hh](images/msedge_5dEhlsFxoe.png)
 
-![jh](images/msedge_BYF93XToyG.png)
+![de](images/msedge_W619MK1sjE.png)
 
 ## Deployment of Nginx as a load Balancer using Shell script
 
