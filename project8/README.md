@@ -54,8 +54,11 @@ run the script ./nginx.sh Public_IP webserver 1 webserver 2
 
 After following the process, we should have a setup in any brouser of our choice 
 
+
 ![jhjg](images/msedge_1QIdO8WMhd.png)
 
+
 ![juyh](images/msedge_6e5Z54l3zk.png)
+
 
 ![hjjy](images/msedge_CD1GdGEpsj.png)
